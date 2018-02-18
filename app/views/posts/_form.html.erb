@@ -27,6 +27,7 @@
     <%= f.fields_for :tags do |attr|%>
       <%=attr.label :name%>
       <%=attr.text_field :name%>
+      <%=attr.submit %>
     <%end%>
   </div>
 
